@@ -1,0 +1,183 @@
+baseURL = "https://3dprintelement.com/"
+languageCode = "en-us"
+title = "3D Print Element"
+theme = "printwire"
+
+[params]
+tagline       = "Additive manufacturing of pure elemental materials — copper, tungsten, titanium, and reactive metal printing for research, electronics, and advanced manufacturing."
+description   = "3D Print Element covers additive manufacturing with pure elemental feedstocks — copper DMLS for thermal management, tungsten for radiation shielding, and reactive metal printing for advanced research applications."
+keywords      = "pure metal 3D printing, copper DMLS, tungsten 3D print, pure titanium AM, elemental material printing, reactive metal additive manufacturing"
+logoEmoji     = "⚛️"
+contactEmail  = "maxdavisgroup@gmail.com"
+footerServicesLabel = "Services"
+
+colorPrimary      = "#14b8a6"
+colorPrimaryDark  = "#0d9488"
+colorPrimaryLight = "#2dd4bf"
+colorBgDark       = "#020a09"
+colorBgSection    = "#040e0d"
+colorBgCard       = "#071412"
+colorBgCardHover  = "#0b1c19"
+
+fontPrimary   = "Rajdhani"
+fontSecondary = "Source+Sans+3"
+
+newsFallbackImages = ["https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1920&q=80"]
+
+heroEyebrow  = "Elemental Material AM"
+heroTitle    = "3D Print <em>Element</em>"
+heroSubtitle = "Additive manufacturing of pure elemental materials — copper, tungsten, titanium, and reactive metal printing for research, electronics, and advanced manufacturing."
+heroCta1Text = "Explore Services"
+heroCta1URL  = "/services/"
+heroCta2Text = "Get a Quote"
+heroCta2URL  = "/contact/"
+heroImage    = "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1920&q=80"
+
+overviewTitle   = "Pure Metals by Additive Manufacturing"
+overviewText    = "Pure copper for thermal conductivity. Tungsten for radiation shielding. Grade 2 titanium for biocompatibility. Additive manufacturing unlocks pure elemental geometries that conventional machining cannot achieve."
+overviewBtnText = "View Services"
+overviewBtnURL  = "/services/"
+
+applicationsTitle = "Industries We Serve"
+servicesTitle    = "3D Print Element Services"
+servicesSubtitle = "Additive manufacturing of pure elemental materials — copper, tungsten, titanium, and reactive metal printing for research, electronics, and advanced manufacturing."
+clusterTitle = "Related 3D Printing Resources"
+newsletterTitle = "Industry Updates to Your Inbox"
+newsletterText  = "Research breakthroughs and industry news — delivered monthly."
+ctaTitle   = "Start Your Project"
+ctaText    = "Additive manufacturing of pure elemental materials — copper, tungsten, titanium, and reactive metal printing for research, electronics, and advanced manufacturing."
+ctaBtnText = "Get in Touch"
+ctaBtnURL  = "/contact/"
+
+[[params.stats]]
+count  = 390
+suffix = "W/mK"
+label  = "Copper Thermal Conductivity"
+
+[[params.stats]]
+count  = 99.9
+suffix = "%"
+label  = "Material Purity (Pure Cu)"
+
+[[params.stats]]
+count  = 48
+suffix = "hr"
+label  = "Pure Metal Part Turnaround"
+
+[[params.stats]]
+count  = 20
+suffix = "+"
+label  = "Pure Elemental Materials"
+
+
+[[params.applications]]
+title       = "Thermal Management"
+description = "Pure copper heat exchangers, cold plates, and thermal spreaders for electronics cooling."
+image       = "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1920&q=80"
+
+[[params.applications]]
+title       = "Radiation Shielding"
+description = "Tungsten shielding geometries for nuclear medicine, X-ray equipment, and particle physics."
+image       = "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1920&q=80"
+
+[[params.applications]]
+title       = "Electrical Conductors"
+description = "Pure copper induction coils, busbars, and RF components with complex internal geometry."
+image       = "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1920&q=80"
+
+[[params.applications]]
+title       = "Research Applications"
+description = "Reactive and refractory metal parts for materials science, high-energy physics, and fusion research."
+image       = "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=1920&q=80"
+
+
+[[params.servicesPreview]]
+icon        = "⚛️"
+title       = "Pure Copper Printing"
+description = "EBM and LPBF copper printing — 99.9% purity, thermal conductivity >360 W/mK, complex internal channels."
+
+[[params.servicesPreview]]
+icon        = "◎"
+title       = "Tungsten AM"
+description = "Binder jet and EBM tungsten printing for radiation shielding, collimators, and high-temperature applications."
+
+[[params.servicesPreview]]
+icon        = "🔬"
+title       = "Reactive Metal Printing"
+description = "Reactive metal AM (pure titanium, tantalum, niobium) in inert atmosphere — specialised handling and certification."
+
+[[params.servicesPreview]]
+icon        = "📋"
+title       = "Material Certification"
+description = "Chemical analysis (ICP-OES), density (Archimedes), and mechanical testing for pure metal AM parts."
+
+
+[[params.services]]
+name        = "Pure Copper Printing"
+description = "EBM and LPBF copper printing — 99.9% purity, thermal conductivity >360 W/mK, complex internal channels."
+icon        = "⚛️"
+image       = "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800&q=80"
+
+[[params.services]]
+name        = "Tungsten AM"
+description = "Binder jet and EBM tungsten printing for radiation shielding, collimators, and high-temperature applications."
+icon        = "◎"
+image       = "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800&q=80"
+
+[[params.services]]
+name        = "Reactive Metal Printing"
+description = "Reactive metal AM (pure titanium, tantalum, niobium) in inert atmosphere — specialised handling and certification."
+icon        = "🔬"
+image       = "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800&q=80"
+
+[[params.services]]
+name        = "Material Certification"
+description = "Chemical analysis (ICP-OES), density (Archimedes), and mechanical testing for pure metal AM parts."
+icon        = "📋"
+image       = "https://images.unsplash.com/photo-1507413245164-6160d8298b31?w=800&q=80"
+
+
+[[params.clusterLinks]]
+name        = "3dprintelements.com"
+url         = "https://3dprintelements.com"
+description = "Elemental materials 3D printing"
+
+[[params.clusterLinks]]
+name        = "metalpowder.co"
+url         = "https://metalpowder.co"
+description = "Metal powder for AM"
+
+[[params.clusterLinks]]
+name        = "dmls3d.com"
+url         = "https://dmls3d.com"
+description = "Metal 3D printing"
+
+[[params.clusterLinks]]
+name        = "sendcutship.com"
+url         = "https://sendcutship.com"
+description = "Custom manufacturing"
+
+[[menu.main]]
+name = "Home"
+url  = "/"
+weight = 1
+[[menu.main]]
+name = "About"
+url  = "/about/"
+weight = 2
+[[menu.main]]
+name = "Articles"
+url  = "/articles/"
+weight = 3
+[[menu.main]]
+name = "Services"
+url  = "/services/"
+weight = 4
+[[menu.main]]
+name = "Contact"
+url  = "/contact/"
+weight = 5
+[[menu.main]]
+name = "Advertise"
+url  = "/advertise/"
+weight = 6
