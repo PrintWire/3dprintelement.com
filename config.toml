@@ -1,9 +1,17 @@
 baseURL = "https://3dprintelement.com/"
 languageCode = "en-us"
 title = "3D Print Element"
-theme = "printwire"
+[outputs]
+  home = ["HTML", "JSON"]
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
 
 [params]
+siteName      = "3D Print Element"
+logoHtml      = '3D&nbsp;PRINT&nbsp;<span class="ed-logo-accent">ELEMENT</span>'
 tagline       = "Additive manufacturing of pure elemental materials — copper, tungsten, titanium, and reactive metal printing for research, electronics, and advanced manufacturing."
 description   = "3D Print Element covers additive manufacturing with pure elemental feedstocks — copper DMLS for thermal management, tungsten for radiation shielding, and reactive metal printing for advanced research applications."
 keywords      = "pure metal 3D printing, copper DMLS, tungsten 3D print, pure titanium AM, elemental material printing, reactive metal additive manufacturing"
